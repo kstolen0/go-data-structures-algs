@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func simpleIntList() {
+func SimpleIntList() {
 	var intList list.List
 
 	intList.PushBack(11)
