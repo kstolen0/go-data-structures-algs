@@ -1,11 +1,11 @@
-package main
+package linear
 
 import (
 	"container/list"
 	"fmt"
 )
 
-func main() {
+func simpleIntList() {
 	var intList list.List
 
 	intList.PushBack(11)
