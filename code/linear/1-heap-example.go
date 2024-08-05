@@ -24,3 +24,13 @@ func (h *IntegerHeap) Pop() interface{} {
 
 	return x1
 }
+
+func HeapMain() {
+	var intHeap *IntegerHeap = &IntegerHeap{1, 4, 5}
+	heap.Init(intHeap)
+	heap.Push(intHeap, 2)
+	fmt.Printf("minimum %d\n", (*intHeap)[0])
+	for intHeap.Len() > 0 {
+		fmt.Printf("%d \n", heap.Pop(intHeap))
+	}
+}

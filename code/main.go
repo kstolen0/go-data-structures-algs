@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	linear.SimpleTuple()
+	linear.HeapMain()
 }
